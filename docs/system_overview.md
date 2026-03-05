@@ -7,22 +7,8 @@ The system samples an analog light sensor, digitizes the signal, buffers the sam
 ---
 
 ## Architecture
-Optical Sensor (LDR)
-↓
-Analog Conditioning
-• Voltage Divider
-• RC Low-Pass Filter (~100 Hz)
-↓
-ADC Interface (SPI)
-↓
-Sample Tick Generator (1 kHz)
-↓
-FIFO Buffer (Depth 16)
-↓
-UART Streaming Engine (115200 baud)
-↓
-Host PC Logger
 
+![Architecture](docs/architecture.png)
 ---
 
 ## Sampling Strategy
