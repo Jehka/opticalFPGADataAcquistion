@@ -8,7 +8,7 @@ The system samples an optical sensor, digitizes the signal, buffers it using a F
 
 ## System Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/architecture.jpeg)
 
 ---
 
